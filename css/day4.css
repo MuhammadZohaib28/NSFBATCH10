@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(47, 47, 47);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.menu-items {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  border: 3px solid red;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.image-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 10rem;
+  border: 3px solid white;
+}
+
+.image-container .profile-picture {
+  width: 100%;
+  height: 100%;
+  border-radius: 10rem;
+}
+
+.name-heading {
+  font-size: 2.5rem;
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+.name-heading span {
+  color: rgb(12, 150, 218);
+}
+
+.paragraph {
+  width: 50%;
+  text-align: center;
+}
+
+.tech-stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+}
+
+.tech-stack li {
+  background-color: rgba(240, 248, 255, 0.509);
+  padding: 0.4rem;
+  border-radius: 5rem;
+  font-size: 0.7rem;
+}
+
+.tech-stack li:hover {
+  background-color: rgba(240, 248, 255, 0.709);
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+.buttons-container li button {
+  padding: 0.7rem;
+  border: none;
+  outline: none;
+  /* border: 2px solid white; */
+  border-radius: 0.4rem;
+  background-color: rgb(21, 21, 21);
+}
