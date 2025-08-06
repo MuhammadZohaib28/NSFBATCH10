@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading {
+  text-align: center;
+  color: green;
+}
+
+table {
+  border-collapse: collapse;
+  /* border: 2px solid red; */
+  background-color: aliceblue;
+
+  margin: auto;
+}
+
+.table-head {
+  background-color: rgba(217, 250, 217, 0.624);
+}
+
+th,
+td {
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+td {
+  padding: 0.5rem;
+}
+
+td img {
+  border-radius: 10rem;
+  height: 4rem;
+  width: 4rem;
+}
+
+td .pass {
+  background-color: green;
+  padding: 0.2rem 1rem;
+  border-radius: 2rem;
+  width: 10rem;
+  color: white;
+}
+
+td .fail {
+  background-color: red;
+  padding: 0.2rem 1rem;
+  border-radius: 2rem;
+  width: 10rem;
+  color: white;
+}
+
+tr:hover {
+  background-color: rgb(222, 239, 255);
+}
+
+.second-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10rem;
+
+}
+
+
+.second-second div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom {
+  display: flex;
+}
