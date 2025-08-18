@@ -94,3 +94,14 @@ for (let i = 1; i <= 10; i++) {
 // 3 X 1 = 3
 // 3 X 2 = 6
 // 3 X 3 = 9
+
+
+let balance = 20000;
+
+while (balance > 0){
+  let bill = prompt("Enter Bill Amount")
+
+  if(bill <= balance){
+    balance -= bill;
+  }
+}
